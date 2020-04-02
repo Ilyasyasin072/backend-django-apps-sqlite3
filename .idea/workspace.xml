@@ -3,18 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7f1c1e29-8b64-4526-b6e6-962dfd53f672" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/admin/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/admin/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/api/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/api/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/api/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/detail_rekam_medis/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/detail_rekam_medis/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/rekam_medis/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/rekam_medis/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/rekam_medis/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/rekam_medis/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/rekam_medis/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/rekam_medis/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/rekam_medis/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/rekam_medis/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/schedule_doctor/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/schedule_doctor/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/schedule_doctor/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/schedule_doctor/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/api/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/doctor/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/doctor/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/schedule_doctor/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/schedule_doctor/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/schedule_doctor/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/schedule_doctor/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +50,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="226" y="357" width="598" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1585542697206" />
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1585799497208">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1585799497208" />
     <state x="193" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1585538320815">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
