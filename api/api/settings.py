@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'room_patient',
     'chemicals',
     'detail_schedule',
+    'schedule_doctor',
 ]
 
 REST_FRAMEWORK = {

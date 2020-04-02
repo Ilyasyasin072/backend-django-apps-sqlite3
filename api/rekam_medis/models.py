@@ -1,3 +1,23 @@
 from django.db import models
+from admin.models import Admin
+from patient.models import Patient
+from doctor.models import Doctor
 
-# Create your models here.
+
+class MedicalRecord(models.Model):
+    id_users = models.ForeignKey(
+        Admin, on_delete=models.CASCADE
+    )
+    date = models.DateTimeField()
+    clock = models.DateTimeField()
+    id_patient = models.ForeignKey(
+        Patient, on_delete=models.CASCADE
+    )
+    id_doctor = models.ForeignKey(
+        Doctor, on_delete=models.CASCADE
+    )
+    diagnosis = models.CharField(max_length=255)
+    information = models.CharField(max_length=200)
+
+    class Meta:
+        db_table = "medical_record"
