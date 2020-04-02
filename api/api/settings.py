@@ -45,6 +45,8 @@ INSTALLED_APPS = [
     'chemicals',
     'detail_schedule',
     'schedule_doctor',
+    'rekam_medis',
+    'detail_rekam_medis',
 ]
 
 REST_FRAMEWORK = {

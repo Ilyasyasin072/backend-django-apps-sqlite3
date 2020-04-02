@@ -22,6 +22,9 @@ from room_patient import views as views_room_patient
 from chemicals import views as view_chemicals
 from detail_schedule import views as views_detail_schedule
 from schedule_doctor import views as views_schedule_doctor
+from detail_rekam_medis import views as view_detail_rekam_medis
+from rekam_medis import views as view_rekam_medis
+
 router = routers.DefaultRouter()
 router.register(r'doctor', views_doctor.DoctorViewSet)
 router.register(r'patient', views_patient.PatientViewSet)
@@ -29,6 +32,8 @@ router.register(r'room_patient', views_room_patient.RoomPatientViewSet)
 router.register(r'chemicals', view_chemicals.ChemicalViewSet)
 router.register(r'detail_schedule', views_detail_schedule.DetailScheduleViewSet)
 router.register(r'schedule_doctor', views_schedule_doctor.ScheduleDoctorViewSet)
+router.register(r'detail_rekam_medis', view_detail_rekam_medis.DetailRecordViewSet)
+router.register(r'rekam_medis', view_rekam_medis.MedicalRecordViewSet)
 urlpatterns = [
     url('', include(router.urls)),
     url('admin/', admin.site.urls),

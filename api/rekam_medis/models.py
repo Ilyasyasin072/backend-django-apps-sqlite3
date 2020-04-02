@@ -1,13 +1,10 @@
 from django.db import models
-from admin.models import Admin
 from patient.models import Patient
 from doctor.models import Doctor
 
 
 class MedicalRecord(models.Model):
-    id_users = models.ForeignKey(
-        Admin, on_delete=models.CASCADE
-    )
+    id_users = models.IntegerField()
     date = models.DateTimeField()
     clock = models.DateTimeField()
     id_patient = models.ForeignKey(
